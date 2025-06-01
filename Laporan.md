@@ -67,7 +67,7 @@ Dataset obat
 
 #### Analisis distribusi data rata-rata rating obat
 
-<div><img src="https://drive.google.com/file/d/1-Gs0XZJD_P7AuM-YAlCfvBYKFiM9zrUW/view?usp=sharing" width="500"/></div
+![Distribusi rata-rata Rating](https://github.com/Yhyabnu/image/blob/76b2de3ed8027abd193c9900331cdbbfcbf51e75/rating.png)
 
 Sebagian besar rata-rata rating obat berada pada nilai 10 hal ini menunjukan kepuasan pelanggan atau konsumen.
 
@@ -77,18 +77,17 @@ Multivariate Analysis menunjukkan hubungan antara dua atau lebih fitur dalam dat
 
 #### Top 10 obat berdasarkan pada kondisi
 
-<div><img src="https://drive.google.com/file/d/13c4p35gBtRtVVwO8DmJAzkaXOV0d9kDv/view?usp=drive_link" width="1000"/></div
-
+![Top 10 Obat berdasarkan kondisi](https://github.com/Yhyabnu/image/blob/76b2de3ed8027abd193c9900331cdbbfcbf51e75/kondisi.png)
 Grafik ini menunjukkan obat-obatan yang paling banyak digunakan oleh pasien untuk berbagai kondisi medis. Levonorgestrel adalah obat yang paling sering digunakan, dengan 378 penggunaan.Diikuti oleh Etonogestrel (286) dan Ethinyl estradiol/norethindrone (240).Obat-obatan hormonal dan kontrasepsi mendominasi daftar ini, menunjukkan prevalensi penggunaannya untuk kondisi terkait reproduksi atau hormonal.
 
 #### Top 10 obat berdasarkan rata-rata rating 
 
-<div><img src="https://drive.google.com/file/d/1zjqiGOlcy10IARN712TsPVef8dx6aerc/view?usp=drive_link"  width="1000"/></div>
+![Top 10 Obat berdasarkan Rating](https://github.com/Yhyabnu/image/blob/76b2de3ed8027abd193c9900331cdbbfcbf51e75/rating%20obat.png)
 Meskipun rating 10.0 bisa mengindikasikan keefektifan tinggi, penting untuk mengevaluasi jumlah pengguna dan konteks penggunaan agar tidak bias oleh jumlah ulasan yang terlalu sedikit.
 
 #### Top 10 obat berdasarkan usefulCount atau manfaat 
 
-<div><img src="https://drive.google.com/file/d/1unrEYfhfYHt3YEBoDn_d9u8dLgEen9Pk/view?usp=drive_link" width="1000"/></div>
+![Top 10 Obat berdasarkan Penggunaan(UsefulCount)](https://github.com/Yhyabnu/image/blob/76b2de3ed8027abd193c9900331cdbbfcbf51e75/usefulCount.png)
 
 Grafik yang ditampilkan menggambarkan obat-obatan yang memiliki ulasan paling berguna menurut penilaian pengguna lain. Dari data yang terlihat, Sertraline menempati posisi teratas dengan total 949 pengguna yang menganggap ulasan mengenai obat ini bermanfaat.posisi kedua ditempati oleh Oxycodone, dengan 695 suara yang menyatakan bahwa ulasan tentang obat ini berguna. Di urutan ketiga terdapat Clonazepam dengan 559 suara. Kedua obat ini, bersama Sertraline, termasuk dalam kategori obat psikotropika atau penghilang nyeri, yang umumnya digunakan untuk menangani gangguan mental, kecemasan, atau nyeri kronis. beberapa obat lain seperti Prozac dan Adipex-P juga masuk dalam daftar sepuluh besar, memperkuat temuan bahwa obat-obatan yang berkaitan dengan kesehatan mental dan pengendalian rasa sakit cenderung menghasilkan ulasan yang dianggap sangat informatif oleh pengguna lain.
 
@@ -138,7 +137,8 @@ Sebagai contoh, dalam sistem rekomendasi obat, apabila seorang pengguna menyukai
 #### Cosine Similarity
 Cosine Similarity mengukur kesamaan antara dua vektor dan menentukan apakah kedua vektor menunjuk ke arah yang sama. Teknik ini bekerja dengan menghitung sudut cosinus antara dua vektor. Semakin kecil sudut cosinus antara dua vektor, semakin besar nilai kemiripan cosinusnya.
 
-<div><img src="https://drive.google.com/file/d/1ZsZkce4BaCva6YOosd1YZt_6Dt-7xAQE/view?usp=drive_link" width="400"/></div>
+![Cosine Similarity](https://github.com/Yhyabnu/image/blob/76b2de3ed8027abd193c9900331cdbbfcbf51e75/cosine.png
+)
 
 Cosine similarity digunakan untuk menghitung derajat kesamaan antar obat berdasarkan representasi vektor dari ulasan pengguna. Untuk menghitung cosine similarity, digunakan fungsi cosine_similarity dari library scikit-learn.
 Tahapan ini menghitung kesamaan antar obat menggunakan dataframe tfidf_matrix yang telah dihasilkan pada proses TF-IDF sebelumnya. TF-IDF merepresentasikan pentingnya kata-kata dalam ulasan, dan cosine similarity mengukur seberapa mirip dua obat berdasarkan kemiripan kata-kata yang muncul dalam ulasan pengguna.
